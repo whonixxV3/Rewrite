@@ -129,6 +129,7 @@ MainModule.SafeTeleport = function(pos)
         local rp = MainModule.GetRootPart(c)
         if rp then rp.CFrame = CFrame.new(pos); return true end
     end
+
 MainModule.Rebel = {
     Enabled = false,
     Connection = nil,
